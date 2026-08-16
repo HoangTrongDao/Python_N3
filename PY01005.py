@@ -14,6 +14,7 @@ def cntb(n):
                 cnt7+=1
             n//=10
     return cnt7
+
 n = int(input())
 kq1 = cntB(n)
 kq2 = cntb(n)
