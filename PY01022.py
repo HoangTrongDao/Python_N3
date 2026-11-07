@@ -9,4 +9,4 @@ def step(s):
 if len(n)<=1:
     print(1)
 else:
-    print(step(n))
+    print(step(n))  

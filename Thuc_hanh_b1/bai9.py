@@ -1,0 +1,25 @@
+t = int(input())
+while t:
+    n,m,k = map(int,input().split())
+    a=list(map(int,input().split()))
+    b=list(map(int,input().split()))
+    c=list(map(int,input().split()))
+    i=j=l=0
+    kq=[]
+    while i<n and j<m and l<k:
+        if a[i]==b[j]==c[l]:
+            kq.append(a[i])
+            i+=1
+            j+=1
+            l+=1
+        elif a[i]<b[j]:
+            i+=1
+        elif b[j]<c[l]:
+            j+=1
+        else:
+            l+=1
+    if kq:
+        print(*kq)
+    else:
+        print("NO")
+    t-=1

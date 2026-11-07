@@ -1,0 +1,1 @@
+{"name":"Local: bai3","url":"d:\\LAP_TRINH\\PY_THON\\PYTHON_PTIT\\Thuc_hanh_b1\\bai3.py","tests":[{"id":1789993402316,"input":"4\ntesting\nintestg\nabc\naabbbcccc\nabcabcbcc\naabbbcccc\nabc\nxyz","output":""}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\LAP_TRINH\\PY_THON\\PYTHON_PTIT\\Thuc_hanh_b1\\bai3.py","group":"local","local":true}
